@@ -23,7 +23,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      // theme: theme,
+      theme: theme,
       home: const CategoriesScreen(),
     );
   }
